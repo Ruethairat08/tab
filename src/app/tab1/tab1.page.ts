@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {}
+export class Tab1Page {
+
+  profile={
+    image:'https://pbs.twimg.com/media/Cjyar3VUgAASSP8.jpg:large',
+    name:'ด.ช. เจบี',
+    lastname:'คิม'
+  }
+}

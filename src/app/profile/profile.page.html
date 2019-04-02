@@ -1,0 +1,35 @@
+<ion-header>
+        <ion-toolbar>
+          <ion-row>
+            <ion-col size=1>
+                <ion-icon name="close-circle-outline" (click)="back()"></ion-icon>
+            </ion-col>
+            <ion-col style="text-align:center" size=9>
+          <ion-title>
+            โปรไฟล์เด็ก
+          </ion-title>
+          </ion-col>
+          <ion-col size=1>
+              <ion-icon name="star-outline"></ion-icon>
+          </ion-col>
+          <ion-col size=1>
+              <ion-icon name="more"></ion-icon>
+          </ion-col>
+        </ion-row>
+        </ion-toolbar>
+      </ion-header>
+      
+      
+      
+      <ion-content>
+             
+          <ion-avatar item-start>
+              <img [src]="profile.image">
+            </ion-avatar>
+      
+            <p>
+           {{profile.name}}  {{profile.lastname}}
+            </p>
+      
+      </ion-content>
+      
